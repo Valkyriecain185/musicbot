@@ -1,0 +1,30 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "A Discord music bot with YouTube and playlist support",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["discord", "music", "bot", "youtube"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "distube": "^4.0.4",
+    "@distube/ytdl-core": "^4.11.5",
+    "@distube/yt-dlp": "^1.1.2",
+    "@discordjs/voice": "^0.16.1",
+    "@discordjs/opus": "^0.9.0",
+    "libsodium-wrappers": "^0.7.11",
+    "ffmpeg-static": "^5.2.0",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1",
+    "ytpl": "^2.3.0",
+    "ytsr": "^3.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
